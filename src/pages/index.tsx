@@ -1,9 +1,9 @@
-import Navbar from '@/components/Navbar'
+import Start from "@/components/Starter";
 
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Start />
     </main>
-  )
+  );
 }
