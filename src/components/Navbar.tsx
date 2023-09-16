@@ -27,7 +27,7 @@ function Navbar() {
             <Bars3Icon className=" h-6 w-6 text-white" aria-hidden="true" />
           </Popover.Button>
         </div>
-        <Popover.Overlay className=" sm:hidden fixed inset-0 bg-black opacity-30 w-full" />
+
         <Transition
           as={Fragment}
           enter=" duration-200 ease-out "
