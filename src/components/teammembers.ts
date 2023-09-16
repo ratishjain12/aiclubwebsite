@@ -30,7 +30,7 @@ const data = [
     img: shreyachopra,
   },
   {
-    name: "Dhyey",
+    name: "Dhyey Gadhethariya",
     img: dhyey,
   },
   {
