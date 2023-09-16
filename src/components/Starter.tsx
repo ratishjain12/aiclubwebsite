@@ -12,13 +12,17 @@ export default function Start() {
   return (
     <div>
       <Navbar />
-      <div className=" absolute top-34 left-0 w-full h-[80vh] md:h-96 bg-gradient-to-tr from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
+      <div className=" absolute top-34 left-0 w-full h-96 md:h-96 bg-gradient-to-tr from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
       <section
         id="banner"
-        className="mt-100 h-[80vh] flex justify-center items-center gap-4 md:gap-12 flex-wrap mb-20"
+        className="mt-12 flex justify-center sm:h-[500px] md:h-[610px] items-center gap-4 md:gap-12 flex-wrap mb-24 overflow-y-hidden"
       >
-        <Image src={banner} alt="banner" className="w-[300px] rounded-full" />
-        <p className=" max-w-[400px] md:max-w-[600px] font-mono text-center text-xl font-bold md:text-2xl">
+        <Image
+          src={banner}
+          alt="banner"
+          className="w-[200px] md:w-[300px] rounded-full"
+        />
+        <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] font-mono text-center text-sm font-bold md:text-2xl ">
           Venture into the Future, Unleashing Minds, Igniting Innovation, and
           Exploring Boundless Horizons, one Algorithm at a time. Here at AI
           CLUB, where we redefine the future of intelligence together!
@@ -27,12 +31,12 @@ export default function Start() {
 
       <section
         id="vision"
-        className="mt-100 bg-[#82A0D8] md:h-[500px] p-12 flex justify-center items-center flex-col mx-4 rounded-md "
+        className="mt-12 bg-[#82A0D8] md:h-[500px] flex justify-center items-center flex-col rounded-md mx-4"
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px]">
+        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px] overflow-y-hidden mt-3">
           Vision
         </h2>
-        <p className="text-xl w-[400px]  md:w-[900px] mx-auto md:text-2xl text-white font-mono mt-4">
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
           expedita voluptatum cupiditate quaerat maiores laboriosam porro est
           doloribus maxime eligendi tempore a animi, assumenda quis praesentium
@@ -41,12 +45,12 @@ export default function Start() {
       </section>
       <section
         id="mission"
-        className="mt-12 bg-[#088395] p-12 md:h-[500px] flex justify-center items-center flex-col  mx-4 rounded-md "
+        className="mt-12 bg-[#088395]  md:h-[500px] flex justify-center items-center flex-col  mx-4 rounded-md "
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px]">
+        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px] overflow-y-hidden mt-3">
           Mission
         </h2>
-        <p className="text-xl w-[400px]  md:w-[900px] mx-auto md:text-2xl text-white font-mono mt-4">
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
           expedita voluptatum cupiditate quaerat maiores laboriosam porro est
           doloribus maxime eligendi tempore a animi, assumenda quis praesentium
