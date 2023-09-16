@@ -25,10 +25,10 @@ export default function Start() {
           alt="banner"
           className="w-[200px] md:w-[300px] rounded-full"
         />
-        <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] font-mono text-center text-sm font-bold md:text-2xl ">
+        <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] text-center text-sm font-bold md:text-2xl ">
           Venture into the Future, Unleashing Minds, Igniting Innovation, and
-          Exploring Boundless Horizons, one Algorithm at a time. Here at AI
-          CLUB, where we redefine the future of intelligence together!
+          Exploring Boundless Horizons, one Algorithm at a time. <br></br>Here
+          at AI CLUB, where we redefine the future of intelligence together!
         </p>
       </section>
 
@@ -36,10 +36,10 @@ export default function Start() {
         id="vision"
         className="mt-12 bg-[#82A0D8] md:h-[500px] flex justify-center items-center flex-col rounded-md mx-4"
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[300px] overflow-y-hidden mt-3">
+        <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3">
           Vision
         </h2>
-        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4 ">
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white mt-4 p-3 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
           expedita voluptatum cupiditate quaerat maiores laboriosam porro est
           doloribus maxime eligendi tempore a animi, assumenda quis praesentium
@@ -50,10 +50,10 @@ export default function Start() {
         id="mission"
         className="mt-12 bg-[#088395]  md:h-[500px] flex justify-center items-center flex-col  mx-4 rounded-md "
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[300px] overflow-y-hidden mt-3">
+        <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3">
           Mission
         </h2>
-        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4">
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white mt-4 p-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
           expedita voluptatum cupiditate quaerat maiores laboriosam porro est
           doloribus maxime eligendi tempore a animi, assumenda quis praesentium
@@ -61,7 +61,7 @@ export default function Start() {
         </p>
       </section>
       <section id="team" className="mt-12">
-        <h2 className="text-center text-4xl font-mono mt-12 underline mb-10">
+        <h2 className="text-center text-4xl  mt-12 mb-10">
           Meet Our Core Team Members
         </h2>
         <div className="flex w-[80%] mx-auto flex-wrap justify-center items-center">
@@ -80,7 +80,7 @@ export default function Start() {
           height={67}
           className="bg-black rounded-full"
         />
-        <h2 className="text-white text-3xl font-semibold font-mono text-center p-2">
+        <h2 className="text-white text-3xl font-semibold  text-center p-2">
           Contact Us
         </h2>
         <Link
