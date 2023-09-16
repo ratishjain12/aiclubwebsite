@@ -34,7 +34,7 @@ const data = [
     img: dhyey,
   },
   {
-    name: "Teesha Choksi",
+    name: "Tisha Choksi",
     img: teesha,
   },
   {
