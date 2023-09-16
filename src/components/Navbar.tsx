@@ -8,7 +8,7 @@ import logo from "@/components/logo.png";
 import mobilelogo from "@/components/mobile-logo.png";
 function Navbar() {
   return (
-    <Popover className=" mx-auto flex items-center justify-around border-b-2 px-6 overflow-x-hidden py-2 h-16 text-black grow bg-white">
+    <Popover className=" mx-auto flex items-center justify-around border-b-2 px-6 py-2 h-16 text-black grow bg-white">
       <h1 className=" font-bold ">
         <Image src={logo} alt="logo" className="w-[100px]" />
       </h1>
