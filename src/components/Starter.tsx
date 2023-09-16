@@ -8,10 +8,13 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import mobileLogo from "@/components/mobile-logo.png";
 import Link from "next/link";
+
 export default function Start() {
   return (
-    <div>
-      <Navbar />
+    <div className="w-full">
+      <div className="w-[100%]">
+        <Navbar />
+      </div>
       <div className=" absolute top-34 left-0 w-full h-96 md:h-96 bg-gradient-to-tr from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
       <section
         id="banner"
@@ -33,7 +36,7 @@ export default function Start() {
         id="vision"
         className="mt-12 bg-[#82A0D8] md:h-[500px] flex justify-center items-center flex-col rounded-md mx-4"
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px] overflow-y-hidden mt-3">
+        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[300px] overflow-y-hidden mt-3">
           Vision
         </h2>
         <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4 ">
@@ -47,7 +50,7 @@ export default function Start() {
         id="mission"
         className="mt-12 bg-[#088395]  md:h-[500px] flex justify-center items-center flex-col  mx-4 rounded-md "
       >
-        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[400px] overflow-y-hidden mt-3">
+        <h2 className="text-3xl text-center md:text-4xl font-mono font-bold bg-white rounded-lg md:w-[400px] min-w-[300px] overflow-y-hidden mt-3">
           Mission
         </h2>
         <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white font-mono mt-4">
