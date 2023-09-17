@@ -61,7 +61,7 @@ export default function Start() {
         </p>
       </section>
       <section id="team" className="mt-12">
-        <h2 className="text-center text-4xl  mt-12 mb-10">
+        <h2 className="text-center text-2xl md:text-4xl  mt-12 mb-10">
           Meet Our Core Team Members
         </h2>
         <div className="flex w-[80%] mx-auto flex-wrap justify-center items-center">
@@ -72,7 +72,7 @@ export default function Start() {
       </section>
       <section
         id="contact"
-        className="mt-12 h-[300px] w-full bg-slate-500 flex flex-col justify-center items-center "
+        className="mt-12 h-[300px] w-full bg-black border-t-4 border-pink-500 flex flex-col justify-center items-center "
       >
         <Image
           src={mobileLogo}

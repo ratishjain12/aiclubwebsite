@@ -6,7 +6,7 @@ interface prop {
 }
 function TeamCard({ name, img }: prop) {
   return (
-    <div className="w-[290px] max-w-[340px] bg-white shadow-md flex flex-col m-3 ">
+    <div className="w-[290px] max-w-[340px] bg-white shadow-md flex flex-col m-3 border-2">
       <Image
         src={img}
         alt="team member"
