@@ -67,7 +67,14 @@ export default function Start() {
         </h2>
         <div className="flex w-[80%] mx-auto flex-wrap justify-center items-center">
           {data.map((item, index) => {
-            return <TeamCard name={item.name} key={index} img={item.img} />;
+            return (
+              <TeamCard
+                name={item.name}
+                key={index}
+                img={item.img}
+                role={item.role}
+              />
+            );
           })}
         </div>
       </section>

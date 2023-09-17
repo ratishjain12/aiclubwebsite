@@ -14,60 +14,76 @@ import taashna from "@/components/images/Taashna Jariwala.jpg";
 import nidhi from "@/components/images/nidhi.jpg";
 const data = [
   {
-    name: "Ratish Jain",
-    img: ratishjain,
-  },
-  {
     name: "Vinay Adatiya",
     img: vinay,
-  },
-  {
-    name: "Sakhi Rotliwala",
-    img: sakhi,
-  },
-  {
-    name: "Shreya Chopra",
-    img: shreyachopra,
-  },
-  {
-    name: "Dhyey Gadhethariya",
-    img: dhyey,
+    role: "President",
   },
   {
     name: "Tisha Choksi",
     img: teesha,
-  },
-  {
-    name: "Jashn Jain",
-    img: jashn,
-  },
-  {
-    name: "Kruti Kikani",
-    img: kruti,
-  },
-  {
-    name: "Harsh Gheewala",
-    img: harshghee,
-  },
-  {
-    name: "Harsh Gajjar",
-    img: harshgajjar,
-  },
-  {
-    name: "Pranavi Mehta",
-    img: pranavimehta,
-  },
-  {
-    name: "Pranami Patel",
-    img: pranamipatel,
+    role: "Vice President",
   },
   {
     name: "Taashna Jariwala",
     img: taashna,
+    role: "Secretary",
+  },
+  {
+    name: "Ratish Jain",
+    img: ratishjain,
+    role: "Technical Lead",
+  },
+
+  {
+    name: "Sakhi Rotliwala",
+    img: sakhi,
+    role: "Technical Lead",
+  },
+  {
+    name: "Shreya Chopra",
+    img: shreyachopra,
+    role: "PR Head",
+  },
+  {
+    name: "Harsh Gajjar",
+    img: harshgajjar,
+    role: "Social Media Handler",
+  },
+  {
+    name: "Jashn Jain",
+    img: jashn,
+    role: "Event Head",
+  },
+  {
+    name: "Pranavi Mehta",
+    img: pranavimehta,
+    role: "Event Head",
+  },
+  {
+    name: "Harsh Gheewala",
+    img: harshghee,
+    role: "Research Team",
+  },
+  {
+    name: "Pranami Patel",
+    img: pranamipatel,
+    role: "Research Team",
+  },
+  {
+    name: "Kruti Kikani",
+    img: kruti,
+    role: "Research Team",
+  },
+
+  {
+    name: "Dhyey Gadhethariya",
+    img: dhyey,
+    role: "Registration Team",
   },
   {
     name: "Nidhi Patel",
     img: nidhi,
+    role: "Registration Team",
   },
 ];
 
