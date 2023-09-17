@@ -25,10 +25,10 @@ export default function Start() {
           alt="banner"
           className="w-[200px] md:w-[300px] rounded-full"
         />
-        <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] text-center text-sm font-bold md:text-2xl ">
+        <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] text-center text-sm font-bold sm:text-lg md:text-xl ">
           Venture into the Future, Unleashing Minds, Igniting Innovation, and
-          Exploring Boundless Horizons, one Algorithm at a time. <br></br>Here
-          at AI CLUB, where we redefine the future of intelligence together!
+          Exploring Boundless Horizons, one Algorithm at a time. Here at AI
+          CLUB, where we redefine the future of intelligence together!
         </p>
       </section>
 
