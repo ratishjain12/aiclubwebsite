@@ -15,7 +15,7 @@ export default function Start() {
       <div className="w-[100%]">
         <Navbar />
       </div>
-      <div className=" absolute top-34 left-0 w-full h-96 md:h-96 bg-gradient-to-tr from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
+      <div className=" absolute top-34 left-0 w-full h-96 md:h-[600px] bg-gradient-to-t from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
       <section
         id="banner"
         className="mt-12 flex justify-center sm:h-[500px] md:h-[610px] items-center gap-4 md:gap-12 flex-wrap mb-24 overflow-y-hidden"
