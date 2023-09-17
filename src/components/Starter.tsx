@@ -8,6 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import mobileLogo from "@/components/mobile-logo.png";
 import Link from "next/link";
+import discordLogo from "@/components/images/discordlogo.png";
 
 export default function Start() {
   return (
@@ -108,6 +109,15 @@ export default function Start() {
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2">
             <LinkedInIcon />
             <span className="">Linkedin</span>
+          </div>
+        </Link>
+        <Link
+          href="https://discord.com/channels/1089997056350888057/1089997056921321474/1153051077042769962"
+          className="text-white"
+        >
+          <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2 flex items-center justify-center">
+            <Image src={discordLogo} alt="discord logo" width={24} />
+            <span className="">Discord</span>
           </div>
         </Link>
       </section>
