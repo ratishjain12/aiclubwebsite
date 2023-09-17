@@ -7,3 +7,13 @@
 * {
   font-family: "Poppins";
 }
+
+.vision-card {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(181, 118, 185, 1) 0%,
+    rgba(162, 33, 242, 1) 47%,
+    rgba(248, 0, 255, 1) 100%
+  );
+}
