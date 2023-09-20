@@ -25,6 +25,7 @@ export default function Start() {
         <Image
           src={banner}
           alt="banner"
+          priority
           className="w-[200px] md:w-[300px] rounded-full"
         />
         <p className=" w-[92vw] sm:w-[80vw] md:max-w-[600px] text-center text-sm font-bold sm:text-lg md:text-xl ">
