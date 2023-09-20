@@ -10,14 +10,14 @@
 
 .mission {
   height: 60vh;
-  background: url("../components/bg-mission.png");
+  background: url("/bg-mission.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .vission {
   height: 60vh;
-  background: url("../components/bg-vission.png");
+  background: url("/bg-vission.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
