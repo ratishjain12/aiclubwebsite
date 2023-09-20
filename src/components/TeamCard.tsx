@@ -19,7 +19,7 @@ function TeamCard({ name, img, role, Linkedin, GitHub }: prop) {
         alt="team member"
         className="w-[100%] h-[250px] object-fill rounded-full"
       />
-      <p className="text-center font-mono p-2">{name}</p>
+      <p className="text-center text-lg p-2">{name}</p>
       <p className="text-center text-xl w-full bg-black/80 text-white rounded-sm p-1">
         {role}
       </p>
