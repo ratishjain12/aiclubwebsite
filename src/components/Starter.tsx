@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Navbar from "./Navbar";
 import banner from "@/components/banner.png";
@@ -32,36 +33,34 @@ export default function Start() {
           CLUB, where we redefine the future of intelligence together!
         </p>
       </section>
-      <div className="bg-[#EDE4FF] border-t-4  border-pink-500 p-6 ">
-        <section
-          id="vision"
-          className=" mt-6 bg-[#713ABE] md:h-[500px] flex justify-center items-center flex-col rounded-md mx-4 shadow-lg"
-        >
-          <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3">
-            Vision
-          </h2>
-          <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white md:text-center mt-4 p-3 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
-            expedita voluptatum cupiditate quaerat maiores laboriosam porro est
-            doloribus maxime eligendi tempore a animi, assumenda quis
-            praesentium minima vitae nemo.
-          </p>
-        </section>
-        <section
-          id="mission"
-          className="mt-12 bg-purple-400  md:h-[500px] flex justify-center items-center flex-col  mx-4 rounded-md shadow-md"
-        >
-          <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3">
-            Mission
-          </h2>
-          <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white mt-4 p-3 md:text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam iure
-            expedita voluptatum cupiditate quaerat maiores laboriosam porro est
-            doloribus maxime eligendi tempore a animi, assumenda quis
-            praesentium minima vitae nemo.
-          </p>
-        </section>
-      </div>
+
+      <section
+        id="vision"
+        className="mt-12 vission p-12 flex justify-center flex-col w-full items-center"
+      >
+        <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3">
+          Vision
+        </h2>
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white md:text-center mt-4 p-3 ">
+          To Lead, Innovate, And Inspire A Future Where Artificial Intelligence
+          Benefits Humanity And Transforms Our World For The Better.
+        </p>
+      </section>
+      <section
+        id="mission"
+        className="mission p-12 flex justify-center flex-col w-full items-center"
+      >
+        <h2 className="text-3xl text-center md:text-4xl  font-bold bg-white rounded-lg md:w-[400px] min-w-[280px] overflow-y-hidden mt-3 ">
+          Mission
+        </h2>
+        <p className="text-md w-[83vw]  md:w-[90vw] mx-auto md:text-2xl text-white mt-4 p-3 md:text-center">
+          Our Mission Is To Educate, Engage, And Empower Individuals In The AI
+          Club At SCET To Excel In The Field Of Artificial Intelligence. We Aim
+          To Create An Inclusive And Dynamic Community Dedicated To Exploring,
+          Learning, And Applying AI Technologies.
+        </p>
+      </section>
+
       <section id="team" className="mt-12">
         <h2 className="text-center text-2xl md:text-4xl  mt-12 mb-10">
           Meet Our Core Team Members
@@ -74,6 +73,8 @@ export default function Start() {
                 key={index}
                 img={item.img}
                 role={item.role}
+                Linkedin={item.Linkedin}
+                GitHub={item.GitHub}
               />
             );
           })}
@@ -103,7 +104,7 @@ export default function Start() {
           </div>
         </Link>
         <Link
-          href="https://instagram.com/ai_clubscet?igshid=OGQ5ZDc2ODk2ZA=="
+          href="https://www.linkedin.com/in/ai-club-scet-79a845291/"
           className="text-white"
         >
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2">
@@ -116,7 +117,7 @@ export default function Start() {
           className="text-white"
         >
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2 flex items-center justify-center">
-            <Image src={discordLogo} alt="discord logo" width={24} />
+            <Image src={discordLogo} alt="discord logo" width={24} priority />
             <span className="">Discord</span>
           </div>
         </Link>

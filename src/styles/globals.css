@@ -8,12 +8,18 @@
   font-family: "Poppins";
 }
 
-.vision-card {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(181, 118, 185, 1) 0%,
-    rgba(162, 33, 242, 1) 47%,
-    rgba(248, 0, 255, 1) 100%
-  );
+.mission {
+  height: 60vh;
+  background: url("../components/bg-mission.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.vission {
+  height: 60vh;
+  background: url("../components/bg-vission.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 */
