@@ -3,45 +3,11 @@
 import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import { createPost } from "../../../db/createPost";
-import "react-quill/dist/quill.snow.css";
+import "suneditor/dist/css/suneditor.min.css"; // Import Sun Editor's CSS File
 
-const ReactQuill = dynamic(import("react-quill"), {
+const SunEditor = dynamic(() => import("../../components/Suneditor"), {
   ssr: false,
-  loading: () => <p>Loading ...</p>,
 });
-
-const modules = {
-  toolbar: [
-    [{ header: "1" }, { header: "2" }, { font: [] }],
-    [{ size: [] }],
-    ["bold", "italic", "underline", "strike", "blockquote"],
-    [
-      { list: "ordered" },
-      { list: "bullet" },
-      { indent: "-1" },
-      { indent: "+1" },
-    ],
-    ["link", "image", "video"],
-    ["clean"],
-  ],
-};
-
-const formats = [
-  "header",
-  "font",
-  "size",
-  "bold",
-  "italic",
-  "underline",
-  "strike",
-  "blockquote",
-  "list",
-  "bullet",
-  "indent",
-  "link",
-  "image",
-  "video",
-];
 
 const CreatePost = () => {
   const [title, setTitle] = useState("");
@@ -121,13 +87,7 @@ const CreatePost = () => {
           </label>
         </div>
 
-        <ReactQuill
-          value={content}
-          modules={modules}
-          formats={formats}
-          className="relative"
-          onChange={(value) => setContent(value)}
-        />
+        <SunEditor />
 
         <button
           className="mt-2 bg-gray-600 p-2 text-white"

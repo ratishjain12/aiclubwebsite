@@ -28,6 +28,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-quill": "^2.0.0",
+    "suneditor": "^2.45.1",
+    "suneditor-react": "^3.6.1",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3"
   }
