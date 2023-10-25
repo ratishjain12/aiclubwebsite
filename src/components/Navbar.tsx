@@ -21,6 +21,7 @@ function Navbar() {
           <Link href="#mission">Mission</Link>
           <Link href="#team">Core Team</Link>
           <Link href="#contact">Contact us</Link>
+          <Link href="/newsletter">Newsletter</Link>
         </div>
 
         <div className=" flex grow items-center justify-end sm:hidden w-full ">
@@ -39,7 +40,7 @@ function Navbar() {
           leaveFrom="duration-100 scale-100  "
           leaveTo=" opacity-0 scale-95 "
         >
-          <Popover.Panel className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden ">
+          <Popover.Panel className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden z-50 ">
             <div className=" rounded-lg bg-black shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 text-white ">
               <div className=" px-5 pt-5 pb-6 ">
                 <div className=" flex items-center justify-between w-full ">
@@ -56,7 +57,7 @@ function Navbar() {
                   </div>
                 </div>
                 <div className=" mt-6 ">
-                  <nav className="grid gap-y-8 ">
+                  <nav className="grid gap-y-8">
                     <Link
                       href="/"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
@@ -86,6 +87,12 @@ function Navbar() {
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
                     >
                       Contact us
+                    </Link>
+                    <Link
+                      href="/newsletter"
+                      className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
+                    >
+                      Newsletter
                     </Link>
                   </nav>
                 </div>

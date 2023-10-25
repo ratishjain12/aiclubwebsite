@@ -14,9 +14,6 @@ import discordLogo from "@/components/images/discordlogo.png";
 export default function Start() {
   return (
     <div className="w-full">
-      <div className="w-[100%]">
-        <Navbar />
-      </div>
       <div className=" absolute top-34 left-0 w-full h-96 md:h-[600px] bg-gradient-to-t from-pink-300 to-[#0055D1] filter blur-3xl -z-50" />
       <section
         id="banner"
