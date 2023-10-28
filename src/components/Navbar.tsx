@@ -109,7 +109,7 @@ function Navbar() {
                     >
                       <Popover.Button className="w-[100%] text-left">
                         <span className=" sr-only ">Close menu</span>
-                        newsletter
+                        Newsletter
                       </Popover.Button>
                     </Link>
                   </nav>
