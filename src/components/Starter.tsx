@@ -111,7 +111,7 @@ export default function Start() {
           </div>
         </Link>
         <Link
-          href="https://discord.com/channels/1089997056350888057/1089997056921321474/1153051077042769962"
+          href="https://discord.gg/CpdpD87xWT"
           className="text-white"
         >
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2 flex items-center justify-center">
