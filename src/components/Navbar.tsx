@@ -62,37 +62,55 @@ function Navbar() {
                       href="/"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
                     >
-                      Home
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        Home
+                      </Popover.Button>
                     </Link>
                     <Link
-                      href="#vision"
+                      href="/#vision"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200 "
                     >
-                      Vision
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        Vision
+                      </Popover.Button>
                     </Link>
                     <Link
-                      href="#mission"
+                      href="/#mission"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200 "
                     >
-                      Mission
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        Mission
+                      </Popover.Button>
                     </Link>
                     <Link
-                      href="#team"
+                      href="/#team"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2  hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
                     >
-                      Core Team
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        Core Team
+                      </Popover.Button>
                     </Link>
                     <Link
-                      href="#contact"
+                      href="/#contact"
                       className=" focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
                     >
-                      Contact us
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        Contact us
+                      </Popover.Button>
                     </Link>
                     <Link
                       href="/newsletter"
                       className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:bg-white hover:text-black py-2 rounded-lg ease duration-200"
                     >
-                      Newsletter
+                      <Popover.Button className="">
+                        <span className=" sr-only ">Close menu</span>
+                        newsletter
+                      </Popover.Button>
                     </Link>
                   </nav>
                 </div>
