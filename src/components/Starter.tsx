@@ -102,7 +102,7 @@ export default function Start() {
           </div>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/ai-club-scet-79a845291/"
+          href="https://www.linkedin.com/company/ai-club-scet-su/"
           className="text-white"
         >
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2">
@@ -110,10 +110,7 @@ export default function Start() {
             <span className="">Linkedin</span>
           </div>
         </Link>
-        <Link
-          href="https://discord.gg/CpdpD87xWT"
-          className="text-white"
-        >
+        <Link href="https://discord.gg/CpdpD87xWT" className="text-white">
           <div className="insta bg-white text-black w-[200px] text-center rounded-lg p-2 mt-2 space-x-2 flex items-center justify-center">
             <Image src={discordLogo} alt="discord logo" width={24} priority />
             <span className="">Discord</span>
