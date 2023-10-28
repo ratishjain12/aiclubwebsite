@@ -1,8 +1,10 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { createPost } from "../../../db/createPost";
+import { useEffect } from "react";
 import "suneditor/dist/css/suneditor.min.css"; // Import Sun Editor's CSS File
 
 const SunEditor = dynamic(() => import("../../components/Suneditor"), {
@@ -14,15 +16,34 @@ const CreatePost = () => {
   const [summary, setSummary] = useState("");
   const [content, setContent] = useState("");
   const [imgfile, setImgFile] = useState<File | null>(null);
+  const [status, setStatus] = useState(false);
+  const router = useRouter();
+  useEffect(() => {
+    if (!localStorage.getItem("admin")) {
+      router.push("/admin");
+    } else {
+      setStatus(true);
+    }
+  }, [status]);
 
   function createNewPost(e: any) {
     console.log(typeof e);
     e.preventDefault();
     createPost(title, summary, content, imgfile!);
   }
+  const logOut = () => {
+    localStorage.removeItem("admin");
+    setStatus(false);
+  };
 
   return (
     <div className="">
+      <button
+        className="mt-2 mx-6 bg-gray-600 p-2 text-white mb-2 rounded-md"
+        onClick={logOut}
+      >
+        Log out
+      </button>
       <form onSubmit={createNewPost} className="flex flex-col mx-6 mt-4 gap-2">
         <input
           type="title"
@@ -90,7 +111,7 @@ const CreatePost = () => {
         <SunEditor />
 
         <button
-          className="mt-2 bg-gray-600 p-2 text-white"
+          className="mt-2 bg-gray-600 p-2 text-white mb-2"
           onClick={createNewPost}
         >
           Create Post

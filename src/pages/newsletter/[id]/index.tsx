@@ -45,14 +45,17 @@ const Post = ({ data }: any) => {
         priority
         width={600}
         height={400}
-        className="w-[300px] mx-auto md:mx-auto md:w-auto max-h-[700px] max-w-[800px] object-contain"
+        className="w-[300px] mx-auto md:mx-auto md:w-auto max-h-[700px] max-w-[800px] object-contain mt-4"
         alt="blog-banner"
       />
       <p className="text-center text-2xl font-semibold mt-2">{data.title}</p>
       <p className="text-center text-lg text-neutral-800 mt-2 p-5">
         {data.summary}
       </p>
-      <div className="p-4" dangerouslySetInnerHTML={{ __html: data.content }} />
+      <div
+        className="w-[90%] mx-auto"
+        dangerouslySetInnerHTML={{ __html: data.content }}
+      />
     </div>
   );
 };
