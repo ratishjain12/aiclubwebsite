@@ -17,10 +17,10 @@ function Navbar() {
       <div className=" grow  md:grow-0">
         <div className=" hidden sm:flex items-center justify-center gap-2 md:gap-8">
           <Link href="/">Home</Link>
-          <Link href="#vision">Vision</Link>
-          <Link href="#mission">Mission</Link>
-          <Link href="#team">Core Team</Link>
-          <Link href="#contact">Contact us</Link>
+          <Link href="/#vision">Vision</Link>
+          <Link href="/#mission">Mission</Link>
+          <Link href="/#team">Core Team</Link>
+          <Link href="/#contact">Contact us</Link>
           <Link href="/newsletter">Newsletter</Link>
         </div>
 
