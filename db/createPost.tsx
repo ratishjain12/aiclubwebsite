@@ -17,11 +17,9 @@ export const createPost = async (
       content: content,
     }
   );
-  console.log(res);
   const imgRes = await storage.createFile(
     `${process.env.NEXT_PUBLIC_STORAGE_ID!}`,
     res.$id,
     image
   );
-  console.log(imgRes);
 };

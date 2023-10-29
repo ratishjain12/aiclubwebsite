@@ -1,32 +1,21 @@
-"use client";
 import { format } from "date-fns";
 import { useRouter } from "next/navigation";
-import { storage, database } from "../../../db/database";
+import { generatePreview } from "../../../db/generatePreview";
 import Image from "next/image";
-import { useState, useEffect } from "react";
-const Index = () => {
-  const router = useRouter();
-  const [docs, setDocs] = useState<Array<any>>([]);
+import { fetchData } from "../../../db/fetchData";
+import { Models } from "appwrite";
 
-  async function fetchData() {
-    const docs = await database.listDocuments(
-      process.env.NEXT_PUBLIC_DATABASE_ID!,
-      process.env.NEXT_PUBLIC_COLLECTION_ID!
-    );
-    console.log(docs.documents);
-    setDocs(docs.documents);
-  }
-  useEffect(() => {
-    fetchData();
-  }, []);
+export const getServerSideProps = async () => {
+  const data = await fetchData();
 
-  const generatePreview = (id: string) => {
-    const filePrev = storage.getFilePreview(
-      process.env.NEXT_PUBLIC_STORAGE_ID!,
-      id
-    );
-    return filePrev.href;
+  return {
+    props: {
+      docs: data,
+    },
   };
+};
+const Index = ({ docs }: { docs: Models.Document[] }) => {
+  const router = useRouter();
 
   const onClick = (id: string) => {
     router.push(`/newsletter/${id}`);
