@@ -10,6 +10,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import mobileLogo from "@/components/mobile-logo.png";
 import Link from "next/link";
 import discordLogo from "@/components/images/discordlogo.png";
+import ScrollToTop from "./ScrollToTop";
 
 export default function Start() {
   return (
@@ -78,6 +79,8 @@ export default function Start() {
           })}
         </div>
       </section>
+
+      <ScrollToTop/>
 
       <section
         id="contact"
