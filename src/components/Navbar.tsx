@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { Fragment } from "react";
 import Image from "next/image";
 import logo from "@/components/logo.png";
-import mobilelogo from "@/components/mobile-logo.png";
+import mobilelogo from "@/components/mobile-logo.svg";
 function Navbar() {
   return (
     <Popover className=" mx-auto flex items-center justify-around border-b-2 px-6 py-2 h-16 text-black grow bg-white">

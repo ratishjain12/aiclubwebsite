@@ -7,7 +7,7 @@ import TeamCard from "./TeamCard";
 import data from "./teammembers";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import mobileLogo from "@/components/mobile-logo.png";
+import mobileLogo from "@/components/mobile-logo.svg";
 import Link from "next/link";
 import discordLogo from "@/components/images/discordlogo.png";
 
