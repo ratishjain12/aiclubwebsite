@@ -11,6 +11,7 @@ import mobileLogo from "@/components/mobile-logo.svg";
 import Link from "next/link";
 import discordLogo from "@/components/images/discordlogo.png";
 import RandomGallery from './Gallery';
+import ScrollToTop from "./ScrollToTop";
 
 export default function Start() {
   return (
@@ -86,6 +87,8 @@ export default function Start() {
           })}
         </div>
       </section>
+
+      <ScrollToTop/>
 
       <section
         id="contact"
