@@ -23,6 +23,41 @@
   background-size: cover;
 }
 
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px;
+  justify-items: center;
+}
+
+.image-wrapper {
+  margin: 10px;
+  border: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out; /* Added transition property for smooth effect */
+}
+
+.image-wrapper:hover {
+  transform: scale(1.02); /* Scale up the image on hover */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows for smaller screens */
+    gap: 8px;
+  }
+}
+
 /* bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 */
 html,
 body {
