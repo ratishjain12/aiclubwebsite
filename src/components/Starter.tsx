@@ -10,6 +10,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import mobileLogo from "@/components/mobile-logo.svg";
 import Link from "next/link";
 import discordLogo from "@/components/images/discordlogo.png";
+import RandomGallery from './Gallery';
 import ScrollToTop from "./ScrollToTop";
 
 export default function Start() {
@@ -58,6 +59,13 @@ export default function Start() {
           To Create An Inclusive And Dynamic Community Dedicated To Exploring,
           Learning, And Applying AI Technologies.
         </p>
+      </section>
+
+      <section>
+      <h2 className="text-center text-2xl md:text-4xl  mt-12 mb-10">
+      Glimpses of Past Events
+        </h2>
+      <RandomGallery />
       </section>
 
       <section id="team" className="mt-12">
