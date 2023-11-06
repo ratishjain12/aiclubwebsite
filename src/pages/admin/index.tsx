@@ -1,8 +1,5 @@
-import { useState, useEffect, use } from "react";
+import { useState, useEffect} from "react";
 import { useRouter } from "next/router";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 export default function Login() {
   const [username, setUsername] = useState("");
