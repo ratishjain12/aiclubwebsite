@@ -1,6 +1,7 @@
 import { database, storage } from "../../../../db/database";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { Models } from "appwrite";
 export async function getStaticPaths(ctx: Object) {
   return {
     paths: [], //indicates that no page needs be created at build time
@@ -27,7 +28,7 @@ export const getStaticProps = async ({
     },
   };
 };
-const Post = ({ data }: any) => {
+const Post = ({ data }: Models.Document) => {
   const router = useRouter();
   return (
     <div className="mt-4 w-full">

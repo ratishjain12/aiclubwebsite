@@ -7,9 +7,11 @@ import TeamCard from "./TeamCard";
 import data from "./teammembers";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import mobileLogo from "@/components/mobile-logo.png";
+import mobileLogo from "@/components/mobile-logo.svg";
 import Link from "next/link";
 import discordLogo from "@/components/images/discordlogo.png";
+import RandomGallery from './Gallery';
+import ScrollToTop from "./ScrollToTop";
 
 export default function Start() {
   return (
@@ -59,6 +61,13 @@ export default function Start() {
         </p>
       </section>
 
+      <section>
+      <h2 className="text-center text-2xl md:text-4xl  mt-12 mb-10">
+      Glimpses of Past Events
+        </h2>
+      <RandomGallery />
+      </section>
+
       <section id="team" className="mt-12">
         <h2 className="text-center text-2xl md:text-4xl  mt-12 mb-10">
           Meet Our Core Team Members
@@ -78,6 +87,8 @@ export default function Start() {
           })}
         </div>
       </section>
+
+      <ScrollToTop/>
 
       <section
         id="contact"

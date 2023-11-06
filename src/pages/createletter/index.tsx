@@ -14,7 +14,7 @@ const SunEditor = dynamic(() => import("../../components/Suneditor"), {
 const CreatePost = () => {
   const [title, setTitle] = useState("");
   const [summary, setSummary] = useState("");
-  const [content, setContent] = useState("");
+  const [content] = useState("");
   const [imgfile, setImgFile] = useState<File | null>(null);
   const [status, setStatus] = useState(false);
   const router = useRouter();
@@ -27,7 +27,6 @@ const CreatePost = () => {
   }, [status]);
 
   function createNewPost(e: any) {
-    console.log(typeof e);
     e.preventDefault();
     createPost(title, summary, content, imgfile!);
   }
