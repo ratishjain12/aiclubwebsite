@@ -39,4 +39,49 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Contributors 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/ratishjain12">
+            <img src="https://avatars.githubusercontent.com/u/43003421?v=4" width="100;" alt="ratishjain12"/>
+            <br />
+            <sub><b>Ratish Jain</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Vinay94278">
+            <img src="https://avatars.githubusercontent.com/u/106542979?v=4" width="100;" alt="Vinay94278"/>
+            <br />
+            <sub><b>Vinay Adatiya</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Jay24004">
+            <img src="https://avatars.githubusercontent.com/u/79038529?v=4" width="100;" alt="Jay24004"/>
+            <br />
+            <sub><b>Jay Patel</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Raihanhn">
+            <img src="https://avatars.githubusercontent.com/u/108555328?v=4" width="100;" alt="Raihanhn"/>
+            <br />
+            <sub><b>Mohammad Raihan</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Sakhi29">
+            <img src="https://avatars.githubusercontent.com/u/106910881?v=4" width="100;" alt="Sakhi29"/>
+            <br />
+            <sub><b>Sakhi Rotliwala</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/kaushal1717">
+            <img src="https://avatars.githubusercontent.com/u/121810303?v=4" width="100;" alt="kaushal1717"/>
+            <br />
+            <sub><b>Kaushal Padaliya</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
